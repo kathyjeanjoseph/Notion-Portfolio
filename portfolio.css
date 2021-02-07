@@ -1,0 +1,125 @@
+/* Custom Fonts */
+
+@font-face {
+  font-family: 'Main';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://raw.githubusercontent.com/kathyjeanjoseph/Notion-Portfolio/main/Augillion.otf) format('otf');
+
+}
+
+@font-face {
+  font-family: 'Name';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://raw.githubusercontent.com/kathyjeanjoseph/Notion-Portfolio/main/Latinotype - Moranga Medium.otf) format('otf');
+
+}
+
+@font-face {
+  font-family: 'Brown';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://raw.githubusercontent.com/kathyjeanjoseph/Notion-Portfolio/main/BrownLL-Regular.otf) format('otf');
+
+}
+
+
+
+/* html, body {
+background-color: #fefcf9 !important;
+} */
+
+.notion-collection-card{
+ box-shadow:0 20px 40px -10px rgba(0,0,0,.06)!important;
+ background:rgba(255,255,255,.4)!important;
+ transition:all .3s ease-in-out!important;
+ border-radius:12px!important;
+ overflow:hidden!important
+}
+
+.notion-collection-card:hover {
+ box-shadow:0 40px 80px -10px rgba(0,0,0,.12) !important;
+ transform:scale(1.02)!important;
+ background:#fff!important
+}
+.notion-navbar, .notion-navbar__search{
+background-color: transparent !important;
+}
+
+.notion-pill{
+background-color: #a54f40 !important;
+font-size: 10px !important;
+}
+
+.notion-link .link a{
+text-transform: uppercase !important;
+letter-spacing: 2px !important;
+}
+.notion-text {
+font-family: 'Brown', sans-serif !important;
+}
+
+h1, h2, h3, h4, .notion-heading, {
+font-family: 'Main' !important;
+font-weight: 500 !important;
+}
+
+.notion-collection-card {
+border: none !important;
+border-radius: none;
+background-color: transparent  !important;
+box-shadow: none !important;
+color: #b4a79e !important;
+}
+
+.bg-brown{
+background-color: transparent !important;
+filter: opacity (.5) !important;
+border-radius: 3px !important;
+}
+
+.bg-brown span{
+color: #b4a79e !important;
+}
+
+.bg-red{
+background-color: transparent !important;
+filter: opacity (.5) !important;
+border-radius: 3px !important;
+}
+
+.bg-red span{
+color: #a54f40 !important;
+}
+
+.bg-gray-light{
+background-color: transparent!important;
+border: none;
+color: #c27061;
+margin-toP: 20px;
+margin-bottom: 20px;
+font-family: 'Brown'!important;
+}
+
+.notion-callout .bg-gray-light{
+background-color: #transparent !important;
+border: #c27061 solid .5px !important;
+color: #c27061 !important;
+font-family: 'Brown', sans-serif !important;
+margin: 20px;
+}
+
+.notion-callout__icon{
+display: none;
+/* background-color: #a54f40;
+margin: 5px 15px 5px 15px !important;
+border-radius: 2px; */
+}
+
+.notion-callout .border{
+border: none;
+}
